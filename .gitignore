@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc
+
+# logs
+*.log
+
+# large raw / analysis data (not for git; rebuild pipeline reads these locally)
+raw-data/
+archive/
+
+# generated dataset + model artifacts (rebuild from scripts)
+ensemble.pt
+ensembleprobs.dat
+traininghistory.dat
+
+# plotting media
+plotting/*.gif
+plotting/*.mp4
+
+# figure previews (the .pdf are tracked, the .png are just for quick viewing)
+figures/*.png

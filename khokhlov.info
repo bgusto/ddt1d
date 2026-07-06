@@ -1,0 +1,7 @@
+source    /mnt/elements/ddt1d/extr
+ncase     25268
+nskip     0  (plotfile present, .dat not yet landed)
+nbad      1  (excluded via badcases.txt)
+ndeton    17031
+features  tmax taumin dens tamb csnd pres xc12 xo16 rdet
+label     last plotfile, max local Mach (|velx|/cs) > 0.8; validated 49/49 vs manual review (excl. known-bad cases), see routines/machdet.py
